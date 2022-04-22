@@ -5,3 +5,5 @@ I have pick a topic about livestock of 75 districts of Nepal and a dataset of 75
 In previous semester (2nd semester) module programming for data analysis, I have learn python for data analysis and visualization using python's inbuilt package like pandas, numpy, matplotlib, and seaborn. Beautiful summary report based on the data analysis was presented as assignmnet in this module. 
 
 I will be more talking about the data science in this repository. 
+
+Also, i have done my coursework of R programming in this repository. 
