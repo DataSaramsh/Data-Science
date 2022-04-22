@@ -1,0 +1,55 @@
+---
+title: "Islington R Markdown"
+output: html_document
+---
+
+### Introduction ###
+
+I want to write random stuff. 
+
+Let's write some code. 
+
+```{r}
+
+a <- rnorm(100)
+mean(a)
+
+```
+
+What if I just to display the code but not show the results/not run the code. 
+I will set eval = FALSE (that is, evaluation is equal to false.)
+
+```{r, eval=FALSE} 
+
+b <- rnorm(1000)
+mean(b)
+
+```
+
+What if I want to run the code and display the output, without showing the code.
+This I perform by setting echo = FALSE
+
+```{r, eval=TRUE, echo=FALSE}
+
+c <- rnorm(100)
+mean(c)
+
+
+
+```
+
+Lastly, we will try visualizing some random plot. 
+
+
+```{r}
+
+plot(rnorm(1000))
+
+```
+
+
+
+
+
+
+
